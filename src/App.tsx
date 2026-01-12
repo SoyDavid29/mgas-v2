@@ -1,4 +1,6 @@
 import Bar from "./Components/Bar"
+import Slider from "./Components/Slider"
+import TopMenu from "./Components/TopMenu"
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
       <Bar />
 
       <header className="w-full h-58.25 bg-[#EA63FF] mt-29">
+
         <div className="flex items-center justify-between p-3">
 
           <div>
@@ -17,6 +20,15 @@ function App() {
 
           <img src="/img/logoMGAS.png" alt="logo" />
 
+        </div>
+
+        <div className="mt-13">
+          <TopMenu/>
+        </div>
+
+
+        <div >
+          <Slider />
         </div>
 
       </header>
